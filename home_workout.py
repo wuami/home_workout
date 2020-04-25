@@ -14,12 +14,14 @@ LOWER = [
   "calf raise",
   "glute bridge",
   "jumping lunges",
+  "curtsy lunge",
   "pistol squat",
   "cossack squat",
   "single leg deadlift"
 ]
 UPPER = [
   "push up",
+  "spiderman push up",
   "tricep dip",
   "overhead press",
   "lateral raise",
@@ -102,7 +104,8 @@ def main():
         if r == args.rounds - 1:
           say_and_wait(0, "end of round %d" % (r + 1))
         else:
-          say_and_wait(args.rest - 10, "end of round %d" % (r + 1))
+          say_and_wait(args.rest - 10, "end of round %d, %d seconds rest" %
+                       (r + 1, args.rest))
 
       print("\nstretch for 5 minutes\n")
       say_and_wait(0, "stretch for 5 minutes")
