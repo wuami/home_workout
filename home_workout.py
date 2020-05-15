@@ -6,58 +6,59 @@ import time
 
 ORDINALS = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"]
 LOWER = [
-  "walking lunge",
-  "step ups",
-  "split squat",
-  "jump squat",
-  "donkey kick",
   "calf raise",
-  "glute bridge",
-  "jumping lunges",
-  "curtsy lunge",
-  "pistol squat",
   "cossack squat",
-  "single leg deadlift"
+  "curtsy lunge",
+  "donkey kick",
+  "glute bridge",
+  "jump squat",
+  "jumping lunges",
+  "lunge to knee drive",
+  "pistol squat",
+  "single leg deadlift",
+  "split squat",
+  "step ups",
+  "walking lunge"
 ]
 UPPER = [
+  "alternating curl",
+  "band chest fly",
+  "band pull aparts",
+  "bent-over row",
+  "lateral raise",
+  "overhead press",
   "push up",
   "spiderman push up",
   "tricep dip",
-  "overhead press",
-  "lateral raise",
-  "alternating curl",
-  "band chest fly",
-  "bent-over row",
-  "tricep extension",
-  "band pull aparts"
+  "tricep extension"
 ]
 CORE = [
-  "crunch",
-  "leg lift",
-  "single leg lift",
-  "reverse crunch",
-  "flutter kick",
-  "plank with leg extension",
-  "plank jack",
-  "side plank with hip lift",
-  "side plank knee to elbow",
-  "superman",
-  "plank rotations",
   "bicycle crunches",
+  "crunch",
   "dead bug",
-  "v-ups",
-  "tuck ups"
+  "flutter kick",
+  "leg lift",
+  "plank jack",
+  "plank rotations",
+  "plank with leg extension",
+  "reverse crunch",
+  "side plank knee to elbow",
+  "side plank with hip lift",
+  "single leg lift",
+  "superman",
+  "tuck ups",
+  "v-ups"
 ]
 CARDIO = [
-  "jumping jack",
   "burpee",
-  "mountain climber",
+  "butt kicks",
+  "candlestick jump",
   "high knee",
   "inchworm",
-  "butt kicks",
-  "speed skaters",
+  "jumping jack",
   "kick sits",
-  "lunge to knee drive"
+  "mountain climber",
+  "speed skaters"
 ]
 ALL_ = LOWER + UPPER + CORE + CARDIO
 
