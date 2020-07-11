@@ -1,0 +1,50 @@
+exercise	type	switch
+calf raise	lower	False
+cossack squat	lower	False
+curtsy lunge	lower	False
+donkey kick	lower	True
+glute bridge	lower	False
+jump squat	lower	False
+jumping lunges	lower	False
+lunge to knee drive	lower	True
+pistol squat	lower	True
+single leg deadlift	lower	True
+split squat	lower	True
+step ups	lower	True
+walking lunge	lower	False
+alternating curl	upper	False
+band chest fly	upper	False
+band pull aparts	upper	False
+bent-over row	upper	False
+lateral raise	upper	False
+overhead press	upper	False
+push up	upper	False
+spiderman push up	upper	False
+tricep dip	upper	False
+tricep extension	upper	False
+alternating v-ups	core	False
+ankle taps	core	False
+bicycle crunches	core	False
+crunch	core	False
+dead bug	core	False
+flutter kick	core	False
+leg lift	core	False
+plank jack	core	False
+plank rotations	core	False
+plank with leg extension	core	False
+reverse crunch	core	False
+side plank knee to elbow	core	True
+side plank with hip lift	core	True
+single leg lift	core	False
+superman	core	False
+tuck ups	core	False
+v-ups	core	False
+burpee	cardio	False
+butt kicks	cardio	False
+candlestick jump	cardio	False
+high knee	cardio	False
+inchworm	cardio	False
+jumping jack	cardio	False
+kick sits	cardio	False
+mountain climber	cardio	False
+speed skaters	cardio	False
