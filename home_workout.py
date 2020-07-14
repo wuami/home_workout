@@ -40,8 +40,12 @@ def main():
       for r in range(args.rounds):
         for i, row in exercises.iterrows():
           if i == 0:
-            say_and_wait(10,
-                         'round %d, %s exercise, %s' % (r + 1, ORDINALS[i], row['exercise']))
+            if r == args.rounds - 1:
+              say_and_wait(10,
+                           'last round blast round, %s exercise, %s' % (ORDINALS[i], row['exercise']))
+            else:
+              say_and_wait(10,
+                           'round %d, %s exercise, %s' % (r + 1, ORDINALS[i], row['exercise']))
           else:
             say_and_wait(60 - args.secs_on,
                          'rest, %s exercise, %s' % (ORDINALS[i], row['exercise']))
